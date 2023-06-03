@@ -28,7 +28,7 @@ services:
       volumes:
           - ./tmp/db:/var/lib/mysql
       environment:
-          MYSQL_DATABASE: puzzle_db
+          MYSQL_DATABASE: lardocker
           MYSQL_ROOT_PASSWORD: root
       ports:
           - "8101:3306"
